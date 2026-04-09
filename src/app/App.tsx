@@ -1,5 +1,5 @@
-import { PageShell } from '../components/PageShell'
-import { CollagePreview } from '../features/collage/components/CollagePreview'
+import { PageShell } from '../components/PageShell';
+import { CollagePreview } from '../features/collage/components/CollagePreview';
 
 export function App() {
   return (
@@ -14,8 +14,8 @@ export function App() {
               Starter app ready for a Last.fm powered album collage.
             </h1>
             <p className="max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
-              Vite, TypeScript, and Tailwind are set up. The project structure is prepared for
-              API integration, collage rendering, and shared app utilities.
+              Vite, TypeScript, and Tailwind are set up. The project structure is prepared for API
+              integration, collage rendering, and shared app utilities.
             </p>
           </div>
         </section>
@@ -23,5 +23,5 @@ export function App() {
         <CollagePreview />
       </div>
     </PageShell>
-  )
+  );
 }

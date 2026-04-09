@@ -1,4 +1,4 @@
-import type { PropsWithChildren } from 'react'
+import type { PropsWithChildren } from 'react';
 
 export function PageShell({ children }: PropsWithChildren) {
   return (
@@ -7,5 +7,5 @@ export function PageShell({ children }: PropsWithChildren) {
         {children}
       </div>
     </main>
-  )
+  );
 }

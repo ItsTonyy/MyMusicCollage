@@ -1,5 +1,5 @@
 export function CollagePreview() {
-  const slots = Array.from({ length: 9 }, (_, index) => index)
+  const slots = Array.from({ length: 9 }, (_, index) => index);
 
   return (
     <section className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
@@ -37,5 +37,5 @@ export function CollagePreview() {
         </ul>
       </div>
     </section>
-  )
+  );
 }

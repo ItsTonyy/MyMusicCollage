@@ -1,10 +1,10 @@
 export interface LastFmImage {
-  '#text': string
-  size: string
+  '#text': string;
+  size: string;
 }
 
 export interface LastFmAlbum {
-  name: string
-  playcount?: string
-  image: LastFmImage[]
+  name: string;
+  playcount?: string;
+  image: LastFmImage[];
 }
