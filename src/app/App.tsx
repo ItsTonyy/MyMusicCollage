@@ -11,7 +11,7 @@ export function App() {
           </p>
           <div className="space-y-3">
             <h1 className="max-w-3xl text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-              Starter app ready for a Last.fm powered album collage.
+              Crie
             </h1>
             <p className="max-w-2xl text-base leading-7 text-slate-300 sm:text-lg">
               Vite, TypeScript, and Tailwind are set up. The project structure is prepared for API
